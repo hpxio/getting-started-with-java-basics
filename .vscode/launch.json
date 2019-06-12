@@ -1,0 +1,47 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - App",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "externalTerminal",
+            "stopOnEntry": false,
+            "mainClass": "com.app.sa.launch.App",
+            "args": "",
+            "projectName": "GettingStartedWithJavaBasics"
+        },
+        {
+            "type": "java",
+            "name": "GettingStartedWithJavaBasics.Run",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "externalTerminal",
+            "stopOnEntry": false,
+            "mainClass": "",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "GettingStartedWithJavaBasics.Debug",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "com.app.sa.App",
+            "args": "",
+            "projectName": "GettingStartedWithJavaBasics"
+        },
+        {
+            "type": "java",
+            "name": "Remote.Attach",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": 5873
+        }
+    ]
+}
